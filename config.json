@@ -1,0 +1,9 @@
+{
+    "homeserverUrl": "https://matrix.org",
+    "accessToken": "",
+    "storageDir": "./data",
+    "commandPrefix": ",",
+    "listenToSelf": true,
+    "enableCrypto": true,
+    "defaultRoomId": "!aauDvgJZjepiTghczB:matrix.org"
+}

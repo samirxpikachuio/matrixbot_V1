@@ -1,0 +1,7 @@
+
+export default function(bot) { 
+    bot.client.on("room.message", async (roomId, event) => {
+      if (!event.content || !event.content.body) return; 
+      console.log(`[LOGGER] ${roomId}: ${event.sender} said: ${event.content.body}`);
+    });
+  }
